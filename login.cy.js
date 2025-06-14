@@ -19,7 +19,7 @@ describe('OrangeHRM Login Test', () => {
 
   it('Negative: Login with invalid password', () => {
     cy.get('input[name="username"]').type('Admin');
-    cy.get('input[name="password"]').type('salahpassword');
+    cy.get('input[name="password"]').type('Hasan10');
     cy.get('button[type="submit"]').click();
 
     // Assertion: Muncul pesan error
