@@ -1,5 +1,3 @@
-// File: cypress/e2e/login.cy.js
-
 describe('OrangeHRM Login Test', () => {
   const baseUrl = 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login';
 
